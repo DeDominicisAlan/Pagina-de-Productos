@@ -1,0 +1,5 @@
+.Barra-lista{
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+}
