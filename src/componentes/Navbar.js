@@ -1,14 +1,13 @@
-import { render } from "@testing-library/react";
 import React, { Component } from "react";
-import "./Navbar.css"
 
 class Navbar extends Component {
   render() {
     return (
       <nav className="navbar bg-body-tertiary" data-bs-theme="dark">
-        <div className="container-fluid">
-          <a className="navbar-brand">Navbar</a>
-          <form className="d-flex" role="search">
+      
+        <div className="container-fluid justify-content-around">
+        <p className="navbar-brand fs-4">EclipseGPU</p>
+          <form className="d-flex " role="search">
             <input
               className="form-control me-2"
               type="search"
@@ -19,6 +18,7 @@ class Navbar extends Component {
               Buscar
             </button>
           </form>
+          <a className="text-white text-decoration-none" href="Soporte">Soporte</a>
         </div>
       </nav>
     );
