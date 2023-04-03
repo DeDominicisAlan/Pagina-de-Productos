@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Pagina-de-Productos/static/css/main.c6eee90e.css",
+    "main.js": "/Pagina-de-Productos/static/js/main.ac521871.js",
+    "static/media/Placa2.jpg": "/Pagina-de-Productos/static/media/Placa2.86f0e1edc1b35ed36f08.jpg",
+    "static/media/Placa1.jpg": "/Pagina-de-Productos/static/media/Placa1.724cb02f4d440bd74628.jpg",
+    "index.html": "/Pagina-de-Productos/index.html",
+    "main.c6eee90e.css.map": "/Pagina-de-Productos/static/css/main.c6eee90e.css.map",
+    "main.ac521871.js.map": "/Pagina-de-Productos/static/js/main.ac521871.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6eee90e.css",
+    "static/js/main.ac521871.js"
+  ]
+}
