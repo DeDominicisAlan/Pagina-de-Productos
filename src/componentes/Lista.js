@@ -11,7 +11,7 @@ export default function ListaMarcas( {onCategoriaSeleccionada } ) {
     className="list-group-item list-group-item-action"
     key={indice}
     >
-    <button className="btn" onClick={() => onCategoriaSeleccionada(marca.Serie)}>{marca.Serie}</button>
+    <button className="btn" onClick={() => {onCategoriaSeleccionada(marca.Serie)}}>{marca.Serie}</button>
     </li>
   );
   
