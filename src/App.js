@@ -8,7 +8,7 @@ import Producto from "./componentes/Producto"
 function App() {
   const gpuList = [
     { id: 1, name: "Eclipse GPU 100", imageId: 1, price: 200, serie: 100 },
-    { id: 2, name: "Eclipse GPU 180", imageId: 1, price: 350, serie: 100 },
+    { id: 2, name: "Eclipse GPU 150", imageId: 1, price: 350, serie: 100 },
     { id: 3, name: "Eclipse GPU 250", imageId: 1, price: 500, serie: 200 },
     { id: 4, name: "Eclipse GPU 300", imageId: 2, price: 1200, serie: 300 },
     { id: 5, name: "Eclipse GPU 150", imageId: 1, price: 250, serie: 100 },
