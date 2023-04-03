@@ -16,7 +16,7 @@ function App() {
     { id: 7, name: "Eclipse GPU 250Z", imageId: 2, price: 600, serie: 200 },
     { id: 8, name: "Eclipse GPU 270", imageId: 2, price: 800, serie: 200 },
     { id: 9, name: "Eclipse GPU 290", imageId: 2, price: 1000, serie: 200 },
-    { id: 10, name: "Eclipse GPU 350", imageId: 2, price: 1500, serie: 300 },
+    { id: 10, name: "Eclipse GPU 350", imageId: 2, price: 1500, serie: 300 }
   ];
   
   const [CategoriaSeleccionada, setCategoriaSeleccionada] = useState(null)
@@ -32,11 +32,19 @@ function App() {
     else
     productosFiltrados = gpuList
   
+  const [productoFiltrado, setProductoFiltrado] = useState(null)
   
+  const handleProductoFiltrado = (productoF) => {
+    setProductoFiltrado(productoF)
+  }
+  
+  if(productoFiltrado != null){
+  productosFiltrados = productosFiltrados.filter((gpu) => gpu.name.toLowerCase().includes(productoFiltrado))
+  }
   
   return (
     <div className="App">
-      <Navbar />
+      <Navbar productoF={handleProductoFiltrado}/>
 
       <header></header>
 

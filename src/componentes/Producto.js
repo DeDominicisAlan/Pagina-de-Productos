@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./Producto.css";
 
 export default function GpuList  ({ gpuList }) {
@@ -14,9 +13,9 @@ export default function GpuList  ({ gpuList }) {
               alt={gpu.name}
             />
             <div>
-              <a href="#" className="card-title">
+              <p className="card-title my-1">
                 {gpu.name}
-              </a>
+              </p>
             </div>
             <div>${gpu.price}</div>
             <button className="btn btn-dark p-2 m-1">

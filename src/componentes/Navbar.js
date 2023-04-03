@@ -1,7 +1,8 @@
-import React, { Component } from "react";
+import React, {useState} from "react";
 
-class Navbar extends Component {
-  render() {
+export default function Navbar ({productoF}) {
+    const [busqueda, setBusqueda] = useState(null)
+
     return (
       <nav className="navbar bg-body-tertiary" data-bs-theme="dark">
       
@@ -13,8 +14,14 @@ class Navbar extends Component {
               type="search"
               placeholder="Buscar"
               aria-label="Search"
+              onChange={(e) => setBusqueda(e.target.value)}
             />
-            <button className="btn btn-outline-primary" type="submit">
+            <button className="btn btn-outline-primary" type="submit" onClick={() => {
+            if(busqueda === "")
+            productoF(null)
+            else
+            productoF(busqueda)
+            }}>
               Buscar
             </button>
           </form>
@@ -23,6 +30,4 @@ class Navbar extends Component {
       </nav>
     );
   }
-}
 
-export default Navbar;

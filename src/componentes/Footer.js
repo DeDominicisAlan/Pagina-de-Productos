@@ -6,9 +6,9 @@ export default function Footer() {
           <div className="col-md-4">
             <h4 className="text-white mb-4">Sobre Eclipse</h4>
             <p className="text-white">
-              Eclipse es un sitio web que se dedica a mostrar información sobre
+              Eclipse es un sitio web que se dedica a mostrar información sobre sus
               GPUs y su rendimiento. Aquí podrás encontrar comparativas,
-              noticias y análisis de las últimas tarjetas gráficas del mercado.
+              noticias y análisis de las últimas tarjetas gráficas del mercado de Eclipse.
             </p>
           </div>
           <div className="col-md-4">

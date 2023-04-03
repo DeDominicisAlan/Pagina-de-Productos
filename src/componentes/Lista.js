@@ -1,12 +1,12 @@
 export default function ListaMarcas( {onCategoriaSeleccionada } ) {
   
-  const marcas = [
+  let marcas = [
     {Serie: 100},
     {Serie: 200},
     {Serie: 300}
   ]
 
-  const listItems = marcas.map( (marca, indice) => 
+  marcas = marcas.map( (marca, indice) => 
     <li 
     className="list-group-item list-group-item-action"
     key={indice}
@@ -18,7 +18,7 @@ export default function ListaMarcas( {onCategoriaSeleccionada } ) {
   return (
   <ul className="list-group p-3 m-0">
   <li className="list-group-item list-group-item-action"><button className="btn" onClick={() => onCategoriaSeleccionada(null)}>Todas</button></li>
-  {listItems}
+  {marcas}
   </ul>
   );
 }
