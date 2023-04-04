@@ -15,17 +15,17 @@ export default function Footer() {
             <h4 className="text-white mb-4">Enlaces útiles</h4>
             <ul className="list-unstyled">
               <li>
-                <a href="Comparativas" className="text-white">
+                <a href="#" className="text-white">
                   Comparativas de GPUs
                 </a>
               </li>
               <li>
-                <a href="x" className="text-white">
+                <a href="#" className="text-white">
                   Análisis de GPUs
                 </a>
               </li>
               <li>
-                <a href="x" className="text-white">
+                <a href="#" className="text-white">
                   Noticias de GPUs
                 </a>
               </li>
@@ -35,19 +35,19 @@ export default function Footer() {
             <h4 className="text-white mb-4">Redes sociales</h4>
             <ul className="list-inline">
               <li className="list-inline-item">
-                <a href="www.facebook.com" className="text-white">
+                <a href="#" className="text-white">
                   Facebook
                   <i className="fab fa-facebook fa-lg"></i>
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="www.twitter.com" className="text-white">
+                <a href="#" className="text-white">
                   Twitter
                   <i className="fab fa-twitter fa-lg"></i>
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="www.instagram.com" className="text-white">
+                <a href="#" className="text-white">
                   Instagram
                   <i className="fab fa-instagram fa-lg"></i>
                 </a>

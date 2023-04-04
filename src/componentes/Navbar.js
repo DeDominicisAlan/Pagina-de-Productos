@@ -25,7 +25,7 @@ export default function Navbar ({productoF}) {
               Buscar
             </button>
           </form>
-          <a className="text-white text-decoration-none" href="Soporte">Soporte</a>
+          <a className="text-white text-decoration-none" href="#">Soporte</a>
         </div>
       </nav>
     );
